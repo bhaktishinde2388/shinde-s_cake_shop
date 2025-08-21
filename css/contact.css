@@ -5,8 +5,8 @@
    width: 400px;
    border: 2px solid black;
    margin: 0 auto;
-   padding: 20px;
-   margin: 20px auto;
+   padding: 10px;
+   margin: 10px auto;
    border-radius: 20px;
    background-color: rgb(84, 37, 84);
    font-family: "Edu NSW ACT Cursive", cursive;
@@ -20,7 +20,7 @@
 
 .sub-div
 {
-    padding: 0px;margin: 40px;
+    padding: 0px;margin: 20px;
 }
 
 input
@@ -56,9 +56,22 @@ input
     border: 2px solid black;
     border: 20px;
     background-color: rgb(239, 167, 239);
-   
+    margin: 20px;
    }
 
    .contact-btn:hover{
      box-shadow: 2px 2px 8px 2px red;
+   }
+
+   .msg_conatiner
+   {
+    background-color: aliceblue;
+    height: 100px;
+    size: 200px;
+    margin: 0 auto;
+    width: 100%; 
+    
+
+
+
    }
