@@ -3,16 +3,42 @@
 .nav-container
 {
     background-color: rgb(84, 37, 84);  
-    padding: 20px ;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    
 }
 
 .nav-item
 {
     text-decoration: none;
-    padding: 20px;
     color: rgb(239, 167, 239);       
     font-family: "Edu NSW ACT Cursive", cursive;
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+  padding-left: -20px;
+  padding-right: -40px;
 }
+
+.signup-login-container
+{ 
+      display: flex;
+      gap: 15px;
+}
+    .login-btn {
+      background: #555;
+      color: white;
+    }
+
+    .signup-btn {
+      background: #4CAF50;
+      color: white;
+    }
+       .login-btn:hover {
+      background: #666;
+    }
+
+    .signup-btn:hover {
+      background: #45a049;
+    }
