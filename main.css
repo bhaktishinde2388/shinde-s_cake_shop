@@ -3,6 +3,11 @@
 body
 {
   background-color: rgb(245, 219, 243);
+      font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
 }
 .nav-container
 {
