@@ -29,25 +29,33 @@ body
   padding-left: -20px;
   padding-right: -40px;
 }
+.hamburger
+    {
+      height: 30px;
+      width: 30px;
+    }
+    .hambuger-container
+    {
+      display: none;
+  
+    }
+@media screen and (max-width:600px)
+{
+  .nav-item
+  {
+    display: none;
+  }
+  .hambuger-container
+  {
 
-.signup-login-container
-{ 
-      display: flex;
-      gap: 15px;
+   display: block;
+   position: relative;
+   left: 90%;
+
+
+   
+  }
+  
 }
-    .login-btn {
-      background: #555;
-      color: white;
-    }
 
-    .signup-btn {
-      background: #4CAF50;
-      color: white;
-    }
-       .login-btn:hover {
-      background: #666;
-    }
-
-    .signup-btn:hover {
-      background: #45a049;
-    }
+    
