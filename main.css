@@ -134,8 +134,21 @@ font-size: 22px;
     line-height: 1.8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
+@media screen and (max-width:600px){
+  .home-container
+  {
+    flex-direction: column;
+    text-align: center;
+  }
+  .my-home-cake-img
+{
+  
+    height: 350px;
+    width: 300px;
+    margin-top: -20px;
+    background: none;
+}
+}
 /* ..........cards */
 /* Add below your existing CSS */
 .cake-card {
